@@ -1,13 +1,10 @@
-import { useState } from "react";
-
+import List from "./components/List";
 function App() {
 
   return (
     <>
       <div>
-        <div className='flex flex-col items-center justify-center min-h-screen text-center'>
-
-        </div>
+        <List />
       </div>
     </>
   );
