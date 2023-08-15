@@ -9,6 +9,8 @@ const List = () => {
 
     console.log(selectedId);
 
+    // "will be used to toggle the display of the content. If the clicking on the selected item, content will be displayed as the item will put the id of the selected item in the state. 
+    // If the selected item is clicked again, the content will be hidden as the id of the selected item will be removed from the state (will be set to null)."
 
     const toggleDisplay = (id) => {
         if (selectedId === id) {
