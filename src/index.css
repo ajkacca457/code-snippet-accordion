@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+@layer base {
+    #root {
+        @apply bg-red-300 w-screen;
+    }
+}
+
+@layer components {
+
+}
